@@ -1,0 +1,11 @@
+# dependencias
+node_modules/
+
+# build
+dist/
+
+# env
+.env
+
+# guia tp
+tp-guide.md
