@@ -5,7 +5,8 @@ este proyecto es una api restful desarrollada con node.js, express, typescript y
 ## requisitos previos
 
 - node.js (versión 20.12.0 o superior para soporte de `process.loadEnvFile()`)
-- mongodb corriendo localmente o una uri de mongodb atlas
+- mongodb corriendo localmente o una uri de mongodb atlas (por si queremos tener
+la db hosteada en la nube)
 
 ## instalación
 
