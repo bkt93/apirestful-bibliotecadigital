@@ -3,6 +3,10 @@ import process from 'node:process';
 process.loadEnvFile();
 
 import express from 'express';
+import { connectDB } from './config/db.js';
+
+// conecto a la base de datos
+connectDB();
 
 // inicializo express
 const app = express();
